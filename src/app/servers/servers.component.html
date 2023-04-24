@@ -1,0 +1,11 @@
+<div id="map">
+  <p>servers works!</p>
+  <button class="btn btn-primary"
+          [disabled]="!allowNewServer"
+          (click)="onServerCreated()">Add Server
+  </button>
+
+  <p [innerText]="allowNewServer"></p>
+  <p>{{allowNewServer}}</p>
+  <p>{{serverCreationStatus}}</p>
+</div>
