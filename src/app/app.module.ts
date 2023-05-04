@@ -8,6 +8,7 @@ import {ServersComponent} from './servers/servers.component';
 import {WarningComponent} from './warning/warning.component';
 import {SuccessComponent} from "./success/success.component";
 import { UserComponent } from './user/user.component';
+import { ToggleChoiceComponent } from './toggle-choice/toggle-choice.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UserComponent } from './user/user.component';
     ServersComponent,
     WarningComponent,
     SuccessComponent,
-    UserComponent
+    UserComponent,
+    ToggleChoiceComponent
   ],
   imports: [
     BrowserModule,

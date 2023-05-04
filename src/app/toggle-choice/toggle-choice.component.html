@@ -1,0 +1,6 @@
+<p *ngIf="displayText">hello</p>
+
+<button (click)="logToggle()" class="form-control">toggle display</button>
+
+<p *ngFor="let timeStamp of timeStamps; let index = index"
+   [ngStyle]="index > 4 ? {backgroundColor: 'blue'} : {}">{{timeStamp}}</p>
