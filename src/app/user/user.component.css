@@ -1,0 +1,10 @@
+* {
+  width: 20%;
+  margin-left: 10%;
+}
+
+button {
+  width: 10%;
+  /*  i want the button to be under the middle of the input*/
+  margin-left: 15%;
+}

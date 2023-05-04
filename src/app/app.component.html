@@ -11,16 +11,18 @@
   <!-- Next Steps -->
   <h2>Next Steps {{name}}</h2>
   <p>What do you want to do next with your app?</p>
-  <input type="text" [(ngModel)]="name">
+  <input [(ngModel)]="name" type="text">
   <p>{{name}}</p>
   <hr>
 
-  <button class="btn btn-primary" (click)="onClick($event)">Submit</button>
+  <button (click)="onClick($event)" class="btn btn-primary">Submit</button>
 
   <p>the number of times clicked {{clickCounter}}</p>
 
   <app-success></app-success>
   <app-warning></app-warning>
   <app-servers></app-servers>
+  <app-user></app-user>
+  <app-server></app-server>
 
 </div>
